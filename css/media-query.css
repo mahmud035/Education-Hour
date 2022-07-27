@@ -1,6 +1,7 @@
 @media (max-width: 992px) {
-  /* Popular Courses Section */
-  .course-section-header p {
+  /* Popular Courses Section + FAQ Section */
+  .course-section-header p,
+  .faq-section-header p {
     width: 80%;
   }
 }
@@ -32,7 +33,8 @@
     font-size: 15px;
   }
 
-  .course-section-header p {
+  .course-section-header p,
+  .faq-section-header p {
     width: 100%;
   }
 
