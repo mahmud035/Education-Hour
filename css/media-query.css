@@ -19,4 +19,9 @@
     line-height: 24px;
     width: 100%;
   }
+
+  /* Popular Courses Section */
+  .course-wrapper p {
+    font-size: 15px;
+  }
 }
