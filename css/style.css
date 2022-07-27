@@ -174,3 +174,29 @@ body {
   color: var(--text-blue);
   font-size: 1.1rem;
 }
+
+/* Footer */
+footer {
+  background-color: var(--bg-black);
+}
+
+footer p {
+  color: #e8e8e8;
+  font-size: 15px;
+}
+
+footer .social-icons a {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #242424;
+  color: var(--text-white);
+  margin-right: 10px;
+  padding: 7px 10px;
+  transition: 0.35s ease;
+}
+
+.social-icons a:hover {
+  background: var(--bg-white);
+  color: #242424;
+}
