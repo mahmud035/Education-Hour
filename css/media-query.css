@@ -7,4 +7,16 @@
   .fa-bars-staggered {
     font-size: 1.7rem;
   }
+
+  /* Slider */
+  .carousel-wrapper .carousel-item h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .carousel-wrapper .carousel-item p {
+    font-size: 15px;
+    line-height: 24px;
+    width: 100%;
+  }
 }
