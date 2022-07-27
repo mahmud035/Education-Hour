@@ -1,0 +1,10 @@
+@media (max-width: 576px) {
+  /* Navbar */
+  .header-wrapper .navbar a.navbar-brand {
+    font-size: 1.9rem;
+  }
+
+  .fa-bars-staggered {
+    font-size: 1.7rem;
+  }
+}
