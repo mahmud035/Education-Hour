@@ -1,3 +1,10 @@
+@media (max-width: 992px) {
+  /* Popular Courses Section */
+  .course-section-header p {
+    width: 80%;
+  }
+}
+
 @media (max-width: 576px) {
   /* Navbar */
   .header-wrapper .navbar a.navbar-brand {
@@ -23,5 +30,16 @@
   /* Popular Courses Section */
   .course-wrapper p {
     font-size: 15px;
+  }
+
+  .course-section-header p {
+    width: 100%;
+  }
+
+  .course-wrapper img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    object-position: center;
   }
 }
