@@ -176,6 +176,15 @@ p {
   font-size: 1.1rem;
 }
 
+/* Explore E- Learning Section */
+.explore-e-learning-wrapper .card {
+  background-color: #f4fafd;
+}
+
+.explore-e-learning-wrapper .card .see-more-text {
+  color: var(--text-blue);
+}
+
 /* Footer */
 footer {
   background-color: var(--bg-black);
