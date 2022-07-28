@@ -192,9 +192,14 @@ p {
   font-size: 12px;
 }
 
-.fa-circle-chevron-right {
+.fa-circle-chevron-right,
+.fa-circle-chevron-left {
   font-size: 26px;
   color: var(--bg-blue);
+}
+
+.fa-circle-chevron-left {
+  color: #80d2ff;
 }
 
 /* Footer */
