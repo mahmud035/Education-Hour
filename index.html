@@ -389,7 +389,7 @@
       <div class="divider"></div>
 
       <!-- FAQ Section -->
-      <section class="faq-wrapper">
+      <section class="faq-wrapper py-4">
         <div class="container">
           <div class="text-center pb-4">
             <h2 class="fw-bold display-5 py-3">Frequently Asked Questions</h2>
@@ -398,8 +398,172 @@
               the readable content of a page when looking at its layout.
             </p>
           </div>
+
+          <!-- Accordion -->
+          <div class="row py-4">
+            <div class="col-lg-8 mx-auto">
+              <div class="accordion" id="accordionExample">
+                <!-- Question-1 -->
+                <div class="accordion-item mb-3 border rounded-3">
+                  <h3 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button text-dark fs-5"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      Difference between CSS Grid and CSS Flexbox
+                    </button>
+                  </h3>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      CSS Grid Layout is a two-dimensional grid-based layout
+                      system with rows and columns while CSS Flexbox offers a
+                      one-dimensional layout. This means Flexbox can work on
+                      either row or columns at a time, but Grids can work on
+                      both.The significant uniqueness between Flexbox and Grids
+                      is that flexbox works on content while the grid is based
+                      on the layout.
+                    </div>
+                  </div>
+                </div>
+                <!-- Question-2 -->
+                <div class="accordion-item mb-3 border rounded-3">
+                  <h3 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed text-dark fs-5"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Difference between Bootstrap and Tailwind CSS.
+                    </button>
+                  </h3>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Bootstrap is an open-source framework that is used to
+                      design responsive websites better, faster, and easier.
+                      Tailwind CSS is a utility-first CSS framework for building
+                      custom user interfaces rapidly and efficiently. Bootstrap
+                      comes with a set of pre-styled responsive, mobile-first
+                      components that possess a definite UI kit. Tailwind offers
+                      pre designed widgets to build a site from scratch with
+                      fast UI development. Sites created using Bootstrap follow
+                      the generic pattern that makes them look identical.
+                      Tailwind CSS uses a set of utility classes to create a
+                      neat UI with more flexibility and uniqueness.
+                    </div>
+                  </div>
+                </div>
+                <!-- Question-3 -->
+                <div class="accordion-item mb-3 border rounded-3">
+                  <h3 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed text-dark fs-5"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      What is CSS Box Model?
+                    </button>
+                  </h3>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      The CSS box model is a container that contains multiple
+                      properties including borders, margin, padding, and the
+                      content itself. It is used to create the design and layout
+                      of web pages. It can be used as a toolkit for customizing
+                      the layout of different elements. The web browser renders
+                      every element as a rectangular box according to the CSS
+                      box model. Box-Model has multiple properties in CSS. Some
+                      of them are given below:
+                      <ul class="py-2">
+                        <li class="mb-2">
+                          <strong>content:</strong> This property is used to
+                          displays the text, images, etc, that can be sized
+                          using the width & height property.
+                        </li>
+                        <li class="mb-2">
+                          <strong>padding:</strong> This property is used to
+                          create space around the element, inside any defined
+                          border.
+                        </li>
+                        <li class="mb-2">
+                          <strong>border:</strong> This property is used to
+                          cover the content & any padding, & also allows to set
+                          the style, color, and width of the border.
+                        </li>
+                        <li>
+                          <strong>margin:</strong> This property is used to
+                          create space around the element ie., around the border
+                          area.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Question-4 -->
+                <div class="accordion-item mb-3 border rounded-3">
+                  <h3 class="accordion-header" id="headingFour">
+                    <button
+                      class="accordion-button collapsed text-dark fs-5"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                    >
+                      What are semantic elements in HTML5?
+                    </button>
+                  </h3>
+                  <div
+                    id="collapseFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Semantic elements = elements with a meaning. <br />
+
+                      A semantic element clearly describes its meaning to both
+                      the browser and the developer. Examples of non-semantic
+                      elements: div, span - Tells nothing about its content.
+                      <br />
+                      Examples of semantic elements: form, table, and article -
+                      Clearly defines its content. Semantic elements make the
+                      code easier to write and understand for the developer as
+                      well as instructs the browser on how to treat them.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
+
+      <div class="divider"></div>
 
       <!-- Trusted Company Section -->
       <section class="trusted-company-wrapper d-none d-lg-block pb-5">

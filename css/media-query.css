@@ -29,7 +29,9 @@
   }
 
   /* Popular Courses Section */
-  .course-wrapper p {
+  .course-wrapper p,
+  .faq-wrapper p,
+  .faq-wrapper .accordion-body {
     font-size: 15px;
   }
 
