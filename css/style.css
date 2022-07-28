@@ -189,7 +189,12 @@ p {
 .ratings i {
   color: #fbbf24;
   margin-left: 1px;
-  font-size: 14px;
+  font-size: 12px;
+}
+
+.fa-circle-chevron-right {
+  font-size: 26px;
+  color: var(--bg-blue);
 }
 
 /* Footer */
