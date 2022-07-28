@@ -185,6 +185,13 @@ p {
   color: var(--text-blue);
 }
 
+/* Feedback Section */
+.ratings i {
+  color: #fbbf24;
+  margin-left: 1px;
+  font-size: 14px;
+}
+
 /* Footer */
 footer {
   background-color: var(--bg-black);
