@@ -201,3 +201,19 @@ footer .social-icons a {
   background: var(--bg-white);
   color: #242424;
 }
+
+/* Ready to Join Section */
+.ready-to-join-wrapper {
+  background-color: var(--bg-blue);
+}
+
+.ready-to-join-wrapper p {
+  color: #f4f4f4;
+  font-size: 15px;
+}
+
+.register-btn {
+  background-color: var(--bg-white);
+  color: var(--text-blue);
+  text-decoration: none;
+}
